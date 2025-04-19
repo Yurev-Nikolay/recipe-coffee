@@ -83,3 +83,26 @@ main {
     font-size: 48px;
     line-height: 57.6px;
 }
+
+/* Рейтинг напитка */
+
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+}
+
+.starOn {
+    padding-right: 4px;
+}
+
+.starOff {
+    padding-left: 8px;
+}
+
+.ratingText {
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+    padding-left: 16px;
+}
