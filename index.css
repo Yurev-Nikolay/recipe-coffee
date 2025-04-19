@@ -32,3 +32,24 @@ main {
     top: -54px;
     right: 44px;
 }
+
+.bottomСontainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 296px;
+    height: 78px;
+    bottom: 230px;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.bottomText {
+    text-transform: uppercase;
+    margin: 16px 20px;
+    color: aliceblue;
+    text-align: left;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 100%;
+}
