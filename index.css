@@ -9,6 +9,9 @@ body {
     height: 1000px;
 }
 
+/* Задний фон */
+
+
 main {
     display: flex;
     justify-content: space-between;
@@ -33,6 +36,9 @@ main {
     right: 44px;
 }
 
+/* Нижний блок */
+
+
 .bottomСontainer {
     display: flex;
     align-items: center;
@@ -52,4 +58,28 @@ main {
     font-weight: 550;
     font-size: 20px;
     line-height: 100%;
+}
+
+/* Название напитка */
+
+
+.topContainer {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: relative;
+    padding: 20px 55px;
+    top: 52px;
+    right: 356px;
+    width: 744px;
+    height: 184px;
+    z-index: 1;
+}
+
+.nameDrink {
+    margin: 0;
+    color: #000000;
+    text-align: left;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
 }
