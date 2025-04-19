@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: Ubuntu;
+    margin: 0;
+    max-width: 1600px;
+    height: 1000px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.imagesСontainer {
+    position: relative;
+    width: 648px;
+    height: 1108px;
+    overflow: hidden;
+
+}
+.images {
+    position: relative;
+    width: 730px;
+    height: 100%;
+    top: -54px;
+    right: 44px;
+}
