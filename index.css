@@ -106,3 +106,52 @@ main {
     font-weight: 400;
     padding-left: 16px;
 }
+
+/* Краткое описание напитка */
+
+
+.shortDescription {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 256px;
+    left: 757px;
+    width: 530px;
+    height: 32px;
+}
+
+.shortDescriptionContent {
+    display: flex;
+    align-items: center;
+}
+
+.shortDescription p {
+    margin: 0 15px;
+}
+
+.text_1 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 100%;
+    font-weight: 400;
+
+}
+
+.text_2 {
+    color: #FFA41B;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.complexity p {
+    margin: 0 8px;
+}
+
+.description {
+    position: absolute;
+    width: 719px;
+    height: 95px;
+    top: 319px;
+    left: 757px;
+}
