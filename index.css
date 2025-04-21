@@ -150,10 +150,19 @@ main {
     margin: 0 8px;
 }
 
+/* Описание кофе */
+
 .description {
     position: absolute;
-    width: 719px;
+    width: 712px;
     height: 95px;
     top: 319px;
     left: 757px;
+}
+
+.description p {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 31.4px;
+    font-weight: 400;
 }
