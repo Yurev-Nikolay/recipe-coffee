@@ -205,3 +205,39 @@ main {
     font-weight: 400;
     list-style: none;
 }
+
+
+/* Рецепт */
+
+
+.recipe {
+    position: absolute;
+    top: 648px;
+    left: 757px;
+}
+
+.recipe p {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 700;
+    margin-left: 0; 
+    margin-top: 40px;
+    padding-left: 0;
+}
+
+.recipe ol {
+    margin-top: 20px;
+    padding-left: 0; 
+    list-style-position: inside;
+}
+
+.recipe li {
+    text-align: left;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-indent: -1em;
+    margin-left: 1em;
+}
